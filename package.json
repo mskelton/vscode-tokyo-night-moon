@@ -43,7 +43,9 @@
       }
     ]
   },
+  "type": "module",
   "scripts": {
+    "create-theme": "node ./scripts/create-theme.js",
     "fmt": "prettier --write .",
     "package": "vsce package",
     "publish": "vsce publish"
